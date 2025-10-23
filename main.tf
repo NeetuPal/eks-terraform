@@ -1,6 +1,6 @@
 provider "aws" {
   region = "us-east-1"
-  profile = var.developer_profile
+  # profile = var.developer_profile
 }
 
 resource "aws_vpc" "devopsshack_vpc" {
