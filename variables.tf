@@ -3,6 +3,6 @@ variable "ssh_key_name" {
   type        = string
   default     = "keypair"
 }
-variable "developer_profile" {
-  default = "dev"
-}
+#variable "developer_profile" {
+# default = "dev"
+#}
